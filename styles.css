@@ -1,0 +1,33 @@
+body {
+    background-color:black;
+    color: white;
+    
+}
+
+#manopaper {
+width: 20%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+#welcome {
+text-align: center;
+padding-top: 30px;
+font-size: 38px;
+color: red;
+
+}
+
+#boucles {
+text-align: center;
+padding-top: 50px;
+}
+
+#resume {
+line-height: 60px;
+text-align: center;
+padding-top: 20px;
+font-size: 30px;
+}
