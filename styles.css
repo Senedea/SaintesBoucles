@@ -1,11 +1,22 @@
 
 body {
     background-color:black;
-    color: white;
-   
-    
-    
+    color: white;   
 }
+
+a:link {
+    color: orange;
+}
+
+a:visited {
+    color:orange;
+}
+
+#listing {
+    text-align: center;
+}
+
+/* INDEX.HTML */
 
 #manopaper {
     height: 100%;
@@ -25,11 +36,26 @@ body {
     
 }
 
-#boucles {
-    padding-top: 30px;
+h1#boucles {
+    padding-top: 10px;
     text-align: center;
     
 }
+
+#clip {
+    width: 620px;
+    max-height: 378px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;    
+}
+
+h1#gourou {
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* BOUCLES.HTML */
 
 #resume {
     text-align: center;
@@ -37,26 +63,13 @@ body {
     padding-top: 20px;
     font-size: 20px;
     overflow-wrap: break-word;
- 
 }
 
 footer {
     text-align: center;
-    padding-top: 250px;
+    padding-top: 20px;
 }
 
 .jaune {
     color: yellow;
-}
-
-.discord {
-    padding-top: 200px;
-}
-
-a:link {
-    color: orange;
-}
-
-a:visited {
-    color:orange;
 }
