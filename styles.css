@@ -2,14 +2,47 @@
 body {
     background-color:black;
     color: white;   
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo {
+    width: 300px;
+    margin: auto;
+}
+
+header nav {
+    float: left;
+    
+}
+
+header nav ul li {
+    display: inline-block;
+    float: left;
+}
+
+header nav ul li a {
+    text-transform: uppercase;
+    margin-right: 20px;
+
+}
+
+a {
+    text-decoration: none;
+   
+}
+
+#browse a {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
 }
 
 a:link {
-    color: orange;
+    color: #006900;
 }
 
 a:visited {
-    color:orange;
+    color:#006900;
 }
 
 #listing {
@@ -22,9 +55,7 @@ a:visited {
     height: 100%;
     max-width: 300px;
     max-height: 300px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: block;   
 
 }
 
@@ -72,4 +103,35 @@ footer {
 
 .jaune {
     color: yellow;
+}
+
+/* PREDICTIONS.HTML */
+#blocprediction {
+    width: 100%;
+    min-width: 70px;
+    max-width: 900px;
+    margin: 200px auto;
+}
+
+#predict {
+    font-size: 35px;
+    text-align: center;
+    width: 900px;
+    height: 100px;
+    background-color: blue;
+    padding-top: 50px;
+    
+}
+
+#blocbouton {
+    text-align: center;
+    
+}
+
+#boutonpredict {
+    width: 200px;
+    height: 50px;
+    border: 2px solid red;
+    font-size: 25px;
+    margin-top: 10px;
 }

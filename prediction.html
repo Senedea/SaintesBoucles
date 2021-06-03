@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Predictions</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <header>
+        <div>
+          <nav>
+          <ul id="browse">
+          <li><a href="/">Index</a></li>
+          <li><a href="boucles.html">Les Boucles</a></li>
+          <li><a href="prediction.html">Prédiction</a></li>
+        </ul> 
+      </nav>
+      </div> 
+        </header>
+    <div id="logo">
+        <a href="prediction.html"><img id="manopaper" src="logoboucle.png" alt="Mano"></a>
+    </div>
+    
+    <div id="blocprediction"><div id="predict">
+Clique sur le bouton pour tenter ta chance sur le prochain sujet de parlotte
+    </div>
+
+    <div id="blocbouton"><button id="boutonpredict">
+Clique
+    </button>
+    </div>
+</div>
+    <script>
+        var txt=document.getElementById("predict");
+        var btm=document.getElementById("boutonpredict");
+        var predictions=[
+        "Top-Achat & Instagram",
+    "Haylie pas vraiment la #2 Mano",
+    "Tic & Tac prennent pas le job au sérieux",
+    "Les vagos ne bossent pas",
+    "La meth c'est temporaire, la Mano aura les armes",
+    "Paine pleurniche",
+    "Guigui c'est un gamin",
+    "La G36 va-t-elle être sorti ?",
+    "Champ de meth spotted ou pas ?",
+    "Concours de blagues à la transfo meth",
+    "Miguel tente de négocier son PPA par tous les moyens",
+    "Parnas et les potins",
+    "Guigui le charo",
+    "Lenny & Tim, les nouveaux Tic & Tac ?",
+    "Qu'est ce qui est jaune et qui attend ?",
+    "Les modos du discord in the boucle",
+    "Vagos torse nu",    
+    "Haylie enceinte ?",
+    "Quand Alex joue MJ Peterson, Miguel est-il donc mort ?",
+    "Faire du biz (et + si affinité) avec Layna Jones",
+    "Mike pleurniche",
+    "Coma cause oubli manger/boire",
+    "Balass en mode DD",
+    "Lenny parle à Charlie dans sa tête",
+    "Tortue en allant au champ ?",
+        ];
+        btm.addEventListener("click",function(){
+            prediction()
+        })
+        function prediction(){
+            btm.disabled=true;
+            var i=setInterval(function(){
+                txt.innerHTML=predictions[entierAleatoire(0, predictions.length-1)]
+            }, 100)
+            setTimeout(function(){
+                clearInterval(i)
+            btm.disabled=false;    
+                
+            }, 3000) 
+        }
+        function entierAleatoire(min, max)
+        {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+
+    </script>
+</body>
+
+</html>
