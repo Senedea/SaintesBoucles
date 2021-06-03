@@ -28,6 +28,7 @@ body {
 #boucles {
     padding-top: 30px;
     text-align: center;
+    
 }
 
 #resume {
@@ -50,4 +51,12 @@ footer {
 
 .discord {
     padding-top: 200px;
+}
+
+a:link {
+    color: orange;
+}
+
+a:visited {
+    color:orange;
 }
