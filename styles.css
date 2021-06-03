@@ -5,29 +5,36 @@ body {
 }
 
 #manopaper {
-width: 20%;
-display: block;
-margin-left: auto;
-margin-right: auto;
+    height: 100%;
+    max-width: 300px;
+    max-height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
 #welcome {
-text-align: center;
-padding-top: 30px;
-font-size: 38px;
-color: red;
-
+    padding-top: 10px;
+    text-align: center; 
+    color: red;
+    font-size: 38px;
+    
 }
 
 #boucles {
-text-align: center;
-padding-top: 50px;
+    padding-top: 30px;
+    text-align: center;
 }
 
 #resume {
-line-height: 60px;
-text-align: center;
-padding-top: 20px;
-font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 80px;
 }
