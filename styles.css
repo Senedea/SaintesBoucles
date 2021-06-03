@@ -1,6 +1,9 @@
+
 body {
     background-color:black;
     color: white;
+   
+    
     
 }
 
@@ -31,8 +34,9 @@ body {
     text-align: center;
     line-height: 60px;
     padding-top: 20px;
-    font-size: 30px;
-    overflow-wrap: normal;
+    font-size: 20px;
+    overflow-wrap: break-word;
+ 
 }
 
 footer {
