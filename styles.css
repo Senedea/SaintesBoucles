@@ -24,9 +24,10 @@ ul .sousmenu {
     
 } */
 #sousmenu {
-    background-color: none;
+    background-color: black;
     min-width: 50px;
     position: absolute;
+    
 }
 #deroulant {
     font-size: 30px;
@@ -43,6 +44,9 @@ ul .sousmenu {
     margin: auto;
 }
 
+nav {
+    padding-bottom: 50px;
+}
 
 header nav ul li {
     display: block;
