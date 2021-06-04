@@ -32,14 +32,10 @@ ul .sousmenu {
     margin: auto;
 }
 
-header nav {
-    float: left;
-    
-}
-
 header nav ul li {
     display: inline-block;
-    float: left;
+    float:left;
+        
 }
 
 header nav ul li a {
@@ -48,10 +44,10 @@ header nav ul li a {
 
 }
 
+
 a {
     text-decoration: none;
-   
-}
+   }
 
 
 
