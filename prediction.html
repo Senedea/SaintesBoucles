@@ -13,9 +13,20 @@
           <nav>
           <ul id="browse">
           <li><a href="/">Index</a></li>
-          <li><a href="boucles.html">Les Boucles</a></li>
-          <li><a href="prediction.html">Prédiction</a></li>
-        </ul> 
+          
+               
+        <li><a href="prediction.html">Prédiction</a></li>
+
+        <li class="deroulant"><a href="boucles.html">Les Boucles</a>
+            <ul class="sousmenu">
+                <li><a href="le-serv.html">Serveur</a></li>
+                <li><a href="la-mano.html">Mano</a></li>
+                <li><a href="los-vagos.html">Vagos</a></li>
+                <li><a href="les-verts.html">Verts</a></li>
+                <li><a href="police.html">Police(WIP)</a></li>
+            </ul>
+        </li>
+        </ul>         
       </nav>
       </div> 
         </header>
@@ -37,32 +48,36 @@ Clique
         var btm=document.getElementById("boutonpredict");
         var predictions=[
         "Top-Achat & Instagram",
-    "Haylie pas vraiment la #2 Mano",
-    "Tic & Tac prennent pas le job au sérieux",
-    "Les vagos ne bossent pas",
-    "La meth c'est temporaire, la Mano aura les armes",
-    "Paine pleurniche",
-    "Guigui c'est un gamin",
-    "La G36 va-t-elle être sorti ?",
-    "Champ de meth spotted ou pas ?",
-    "Concours de blagues à la transfo meth",
-    "Miguel tente de négocier son PPA par tous les moyens",
-    "Parnas et les potins",
-    "Guigui le charo",
-    "Lenny & Tim, les nouveaux Tic & Tac ?",
-    "Qu'est ce qui est jaune et qui attend ?",
-    "Les modos du discord in the boucle",
-    "Vagos torse nu",    
-    "Haylie enceinte ?",
-    "Quand Alex joue MJ Peterson, Miguel est-il donc mort ?",
-    "Faire du biz (et + si affinité) avec Layna Jones",
-    "Mike pleurniche",
-    "Coma cause oubli manger/boire",
-    "Balass en mode DD",
-    "Lenny parle à Charlie dans sa tête",
-    "Tortue en allant au champ ?",
-    "Oublie de s'enregistrer sur la pointeuse de la compta",
-    "C'est oune bonne sitouation *insert métier* ?",
+        "Haylie pas vraiment la #2 Mano",
+        "Tic & Tac prennent pas le job au sérieux",
+        "Les vagos ne bossent pas",
+        "La meth c'est temporaire, la Mano aura les armes",
+        "Paine pleurniche",
+        "Guigui c'est un gamin",
+        "La G36 va-t-elle être sorti ?",
+        "Champ de meth spotted ou pas ?",
+        "Concours de blagues à la transfo meth",
+        "Miguel tente de négocier son PPA par tous les moyens",
+        "Parnas et les potins",
+        "Guigui le charo",
+        "Lenny & Tim, les nouveaux Tic & Tac ?",
+        "Qu'est ce qui est jaune et qui attend ?",
+        "Les modos du discord in the boucle",
+        "Vagos torse nu",    
+        "Haylie enceinte ?",
+        "Quand Alex joue MJ Peterson, Miguel est-il donc mort ?",
+        "Faire du biz (et + si affinité) avec Layna Jones",
+        "Mike pleurniche",
+        "Coma cause oubli manger/boire",
+        "Balass en mode DD",
+        "Lenny parle à Charlie dans sa tête",
+        "Tortue en allant au champ ?",
+        "Oublie de s'enregistrer sur la pointeuse de la compta",
+        "C'est oune bonne sitouation *insert métier* ?",
+        "C'est ça le serious RP",
+        "Champ de weed spotted ?",
+        "Pourquoi un hélico attendait au sol à la mine ?",
+        "Mass RP concernant le van Smoke on the water des verts",
         ];
         btm.addEventListener("click",function(){
             prediction()

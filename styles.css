@@ -1,8 +1,30 @@
-
 body {
     background-color:black;
     color: white;   
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.deroulant:hover {
+    background-color: none;
+}
+
+.deroulant > a::after{
+    content: "▼";
+    font-size: 30px;
+}
+
+.sousmenu {
+    display: none;
+    background-color: white;
+    min-width: 50px;
+}
+
+.deroulant:hover .sousmenu {
+    display: block;
+}
+
+ul .sousmenu {
+    line-height: 30px;
 }
 
 #logo {
@@ -31,6 +53,8 @@ a {
    
 }
 
+
+
 #browse a {
     color: white;
     font-weight: bold;
@@ -45,17 +69,14 @@ a:visited {
     color:#006900;
 }
 
-#listing {
-    text-align: center;
-}
-
 /* INDEX.HTML */
 
 #manopaper {
     height: 100%;
     max-width: 300px;
     max-height: 300px;
-    display: block;   
+    display: block; 
+    padding-top: 50px;  
 
 }
 
@@ -101,8 +122,9 @@ footer {
     padding-top: 20px;
 }
 
-.jaune {
-    color: yellow;
+#listing {
+    text-align: center;
+    color: red;
 }
 
 /* PREDICTIONS.HTML */
@@ -134,4 +156,20 @@ footer {
     border: 2px solid red;
     font-size: 25px;
     margin-top: 10px;
+}
+
+
+
+
+/* LES-VERTS.HTML */
+
+
+h1.lesverts {
+    color: green;
+}
+
+/* LOS-VAGOS.HTML */
+
+h1.losvagos {
+    color: yellow;
 }
