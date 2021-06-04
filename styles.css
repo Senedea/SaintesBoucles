@@ -4,7 +4,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.deroulant:hover {
+/* .deroulant:hover {
     background-color: none;
 }
 
@@ -13,11 +13,7 @@ body {
     font-size: 30px;
 }
 
-.sousmenu {
-    display: none;
-    background-color: none;
-    min-width: 50px;
-}
+
 
 .deroulant:hover .sousmenu {
     display: block;
@@ -26,6 +22,20 @@ body {
 ul .sousmenu {
     line-height: 30px;
     
+} */
+#sousmenu {
+    background-color: none;
+    min-width: 50px;
+    position: absolute;
+}
+#deroulant {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;;
+}
+.toggle {
+    display: none;
 }
 
 #logo {
@@ -175,3 +185,4 @@ h1.losvagos {
 h1.flics {
     color: blue;
 }
+
