@@ -21,11 +21,6 @@ body {
     display: none;
 }
 
-#logo {
-    width: 300px;
-    margin: auto;
-}
-
 nav {
     padding-bottom: 50px;
 }
@@ -67,12 +62,13 @@ a:link {
 /* INDEX.HTML */
 
 #manopaper {
-    height: 100%;
-    max-width: 400px;
-    max-height: 300px;
-    display: block; 
-    padding-top: 50px;  
-
+    height: 50%;
+    width: 50%;
+    display: block;
+    padding-top: 50px; 
+    margin-left: auto;
+    margin-right: auto;
+       
 }
 
 #welcome {
