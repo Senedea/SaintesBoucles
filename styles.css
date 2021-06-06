@@ -88,10 +88,10 @@ h1#boucles {
 }
 
 #clip {
-    max-width: 450px;
-    min-width: 450px;
-    max-height: 500px;    
-    min-height: 500px;
+    max-width: 420px;
+    min-width: 420px;
+    max-height: 420px;    
+    min-height: 420px;
     display: block;
     margin: 0 auto;
     padding-top: 10px;    
