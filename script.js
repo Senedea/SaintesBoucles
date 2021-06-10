@@ -34,7 +34,7 @@ var tablo=[
     "Pablo coup de pression",
     "Pablo dit merci (cartel exlu)",
     "Personnage X serait une plus-value pour la Mano",
-    "Visite de courtoisie tierquar Mano",
+    "Visite de courtoisie chez la Mano",
     "Lenny : bras droit ?",
     "La Mano croise les Lost sur leur champs",
     "C'est la merde chez les Lost",
