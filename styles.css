@@ -210,3 +210,38 @@ h1.titrefaq {
 #gdoc {
     padding-top: 30px;
 }
+
+/* BINGO.HTML */
+
+#bingo > table tr td {
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+#bingo > table tr td.active {
+    background-color: green;
+}
+
+#bingo {
+    
+    display: flex;
+    justify-content: center;
+   
+}
+#bingobutton {
+    
+    margin: 30px auto;
+    display: block;
+}
+
+.bingop {
+    text-align: center;
+    color: red;
+    padding-top: 30px;
+    font-size: 30px;
+    
+}
