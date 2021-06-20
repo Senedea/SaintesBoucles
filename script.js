@@ -84,6 +84,10 @@ var tablo=[
     "Le chat : Haylie a quitter le serv ?",
     "Le chat : Où sont Julian & Noah ?",
     "Prédiction de Clipper se réalise",
+    "Milo vole un truc",
+    "Pablo : point faible -> trop fort",
+    "Pablo = ennemi public n°1",
+    "Mec/voiture en noir ou blanc = c'est la Mano !!",
 ]
 
 var tablotemp=tablo
