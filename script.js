@@ -59,7 +59,6 @@ var tablo=[
     "SVP ON S'ARRÊTE (police)",
     "Descente SWAT/GIBS",
     "Leah au LSPD",
-    "Abbing veut tomber sur la Mano",
     "Un problème ? c'est la Mano (police)",
     "Pripri trop fort",
     "C pas disnay",
@@ -88,6 +87,20 @@ var tablo=[
     "Pablo : point faible -> trop fort",
     "Pablo = ennemi public n°1",
     "Mec/voiture en noir ou blanc = c'est la Mano !!",
+    "Mano : pas d'intéraction = pas RP",
+    "Larry fait de la merde",
+    "Mano : gros silence",
+    "Ice-T au tél quasi h24",
+    "Les Ballas sans couleur sur la map",
+    "From Ballass to Bolloss",
+    "From Bolloss to Ballass",
+    "Prigent en burnout",
+    "Rencard de Prigent interrompu",
+    "LSPD : Mano peut acheter des armes = soulou merde",
+    
+
+
+
 ]
 
 var tablotemp=tablo
